@@ -6,21 +6,21 @@ on:
       DEVICE_IMG:
         description: '(.img) file link'
         required: true
-        default: 'https://dumps.tadiphone.dev/dumps/samsung/a05s/-/raw/a05snsdxx-user-14-UP1A.231005.007-A057FXXS5CXH9-release-keys/recovery.img'
+        default: 'https://github.com/demitrius2025/android_c2q_recovery_img/recovery.img'
       DEVICE_BRANCH:
-        description: 'your device branch name (Optional)'
+        description: 'android_device_samsung_c2q'
         required: true
-        default: 'android-12.1'
+        default: 'android-14.1'
       GITHUB_TOKEN:
-        description: 'your github Access token (Optional)'
+        description: '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'
         required: true
-        default: 'XXXXXXXXXXXXXXXXXXXXXXXXXX'
+        default: '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'
       EMPTY_REPO:
-        description: 'your empty repo name on github (Optional)'
+        description: 'https://github.com/demitrius2025/android_device_c2q.git'
         required: true
-        default: 'android_device_samsung_a05s.git'
+        default: 'android_device_c2q.git'
       COMMIT_MESSAGE:
-        description: 'your commit message (Optional)'
+        description: 'ysample'
         required: true
         default: 'TWRP device tree'
       PUSH_GITHUB:
