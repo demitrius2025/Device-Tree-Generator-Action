@@ -6,7 +6,7 @@ on:
       DEVICE_IMG:
         description: '(.img) file link'
         required: true
-        default: 'https://github.com/demitrius2025/android_c2q_recovery_img/blob/main/recovery.img'
+        default: 'https://github.com/demitrius2025/android_c2q_recovery_img/main/recovery.img'
       DEVICE_BRANCH:
         description: 'android_device_samsung_c2q'
         required: true
